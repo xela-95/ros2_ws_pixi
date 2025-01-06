@@ -1,4 +1,24 @@
-
 # pixi environments
 .pixi
 *.egg-info
+
+# ROS build and development directories
+build/
+devel/
+install/
+
+# ROS log files
+log/
+
+# ROS package specific files
+*.pyc
+*.pyo
+*.swp
+*.bak
+*.log
+*.bag
+*.db
+
+# ROS2 specific files
+.colcon/
+.colcon_cache/
