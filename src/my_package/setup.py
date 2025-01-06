@@ -22,6 +22,7 @@ setup(
             "my_node = my_package.my_node:main",
             "draw_circle = my_package.draw_circle:main",
             "pose_subscriber = my_package.pose_subscriber:main",
+            "turtle_controller = my_package.turtle_controller:main",
         ],
     },
 )
